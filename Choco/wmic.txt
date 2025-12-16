@@ -1,0 +1,4 @@
+DISM /Online /Add-Capability /CapabilityName:WMIC
+
+
+add-WindowsCapability -online -name WMIC
